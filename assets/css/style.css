@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  background: url(https://png.pngtree.com/background/20240507/original/pngtree-contemporary-authentic-3d-renderings-of-web-login-page-templates-picture-image_8832124.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.textbox {
+  margin-bottom: 20px;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  background: #fff;
+  color: #333;
+  font-size: 1rem;
+}
+
+.textbox input:focus {
+  outline: none;
+  border: 2px solid #4CAF50;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #45a049;
+}
